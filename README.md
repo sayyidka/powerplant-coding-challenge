@@ -12,7 +12,7 @@ It will create a "venv" folder in the root directory.
 Now you can create a virtual environment by running one the following commands :  
 
 On Windows : `source venv\Scripts\activate`  
-  
+
 On Linux/MacOS : `source env/bin/activate`  
 
 If the virtual environment is successfully created, you should see the `(venv)` mention in the terminal.
@@ -22,7 +22,7 @@ Install the dependencies by running in the root folder :
 `pip install -r requirements.txt `
 
 Run the application on the production server :  
-`python3 app.py`  
+`python app.py`  
 
 The API will be listening on the port 8888 from localhost at :
 `http://127.0.0.1:8888/productionplan`  
