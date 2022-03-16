@@ -6,10 +6,13 @@ Install virtualenv package by running :
 
 Create a virtual environment in the root folder by running :  
 `python3 -m venv venv`  
+
 It will create a "venv" folder in the root directory.
 
 Now you can create a virtual environment by running one the following commands :  
+
 On Windows : `source venv\Scripts\activate`  
+  
 On Linux/MacOS : `source env/bin/activate`  
 
 If the virtual environment is successfully created, you should see the `(venv)` mention in the terminal.
